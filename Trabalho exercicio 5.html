@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Consultoria De Placas
+    <h1>Consulte sua Placa</h1>
+</body>
+<script>
+    let num
+        let placa
+        do {
+            num = parseInt(prompt('Insira um numero de 1 a 9:'))
+        } while (isNaN(num)||num>9);
+        switch(num)
+{
+case 9:
+placa = 'J' 
+ break
+    case 8:
+    placa = 'I'
+    break
+        case 7:
+        placa = 'H'
+        break
+            case 6:
+            placa = 'G'
+            break
+                case 5: 
+                placa = 'F'
+                break
+                    case 4: 
+                    placa = 'E'
+                    break
+                        case 3:
+                        placa ='D'
+                        break
+                            case 2:
+                            placa ='C'
+                            break
+                                case 1:
+                                placa =' B'
+                                break
+                                    case 0:
+                                    placa  = 'A'
+                                    break
+                
+}
+window.alert(`De acordo com o número informado ${num}, a letra correspondente é: ${placa} `)
+</script>
+</html>
